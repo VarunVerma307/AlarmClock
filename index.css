@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+body{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.box-down h1{
+    color: rgb(244, 252, 252);
+    
+
+}
+#head{
+    font-family: 'Bubblegum Sans', cursive;
+    color: rgb(252, 248, 248);
+    text-align: center;
+    border-radius: 5px;
+    
+    font-size: 50px;
+    background: #403A3E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    
+}
+.box{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 50vh;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgb(10, 0, 0);
+}
+.box-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-down img{
+    padding: 3%;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.column{
+    margin: 9px;
+}
+.column select{
+    padding: 9%;
+    background: #CAC531;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: none;
+    border-radius:4px;
+    font-weight: bold;
+    
+
+}
+.btn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    padding: 3%;
+    margin: 5%;
+    background: #403A3E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 3px 3px 3px  black;
+
+width: 150px;
+    
+    border: none;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
