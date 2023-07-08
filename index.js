@@ -66,8 +66,17 @@ for (let i = 2; i > 0; i--) {
 }
 
 function setalarm() {
+  if(close){
+    setime=" ";
+    ringtone.pause();
+    push.innerHTML="Set Alarm"
+    return close=false;
+  }
   setime = `${select[0].value}:${select[1].value}:${select[2].value}`;
-  // push.innerHTML="clear Alarm"
+  close=true;
+  push.innerHTML="Clear Alarm"
+ 
+
 }
 
 push.addEventListener("click", setalarm);
